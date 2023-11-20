@@ -69,6 +69,7 @@ def test_recognition(rec_type, val_type, image_paths, truth_file, dpath):
             else:
                 # Обработка случая, когда в строке нет символа ':' или после ':' нет текста
                 print(f"Invalid line format: {line}")
+
     # Оцениваем точность на основе указанного типа проверки
     if val_type == 'full_match':
         accuracy = evaluate_accuracy_wordwise(ground_truth, predictions)
@@ -82,48 +83,6 @@ def test_recognition(rec_type, val_type, image_paths, truth_file, dpath):
             file.write(f"{image_path}: {prediction}\n")
 
         return accuracy
-
-# # СРАВНИВАЕМ ПОСЛОВНО
-# def compare_predictions_wordwise(truth_file, straight_predictions_file, easyocr_predictions_file):
-#     ground_truth = {}
-#     with open(truth_file, 'r', encoding='utf-8') as file:
-#         for line in file:
-#             parts = line.split(':')
-#             if len(parts) >= 2:
-#                 image_path = parts[0].strip()
-#                 true_text = parts[1].strip()
-#                 ground_truth[image_path] = true_text
-#
-#     # Загрузка предсказаний от straight_recognition
-#     straight_predictions = {}
-#     with open(straight_predictions_file, 'r', encoding='utf-8') as file:
-#         for line in file:
-#             parts = line.split(':')
-#             if len(parts) >= 2:
-#                 image_path = parts[0].strip()
-#                 prediction_text = parts[1].strip()
-#                 straight_predictions[image_path] = prediction_text
-#             #else:
-#                 #print(f"Invalid line format in {straight_predictions_file}: {line}")
-#
-#     # Загрузка предсказаний от easyocr_recognition
-#     easyocr_predictions = {}
-#     with open(easyocr_predictions_file, 'r', encoding='utf-8') as file:
-#         for line in file:
-#             parts = line.split(':')
-#             if len(parts) >= 2:
-#                 image_path = parts[0].strip()
-#                 prediction_text = parts[1].strip()
-#                 easyocr_predictions[image_path] = prediction_text
-#             #else:
-#                 #print(f"Invalid line format in {easyocr_predictions_file}: {line}")
-#
-#     # Сравнение по словам
-#     straight_accuracy = evaluate_accuracy_wordwise(ground_truth, straight_predictions)
-#     easyocr_accuracy = evaluate_accuracy_wordwise(ground_truth, easyocr_predictions)
-#
-#     return straight_accuracy, easyocr_accuracy
-
 
 def evaluate_accuracy_wordwise(ground_truth, predictions):
     correct = 0
