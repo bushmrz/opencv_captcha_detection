@@ -11,3 +11,6 @@ capchi/8-.jpg: С
 capchi/9-.jpg: 
 capchi/10-.jpg: охотно" я
 capchi/11-.jpg: “/0aked pact?
+
+Точность для straight part_match распознавание по набору данных: 18.18%
+Точность для straight full_match распознавание по набору данных: 0.00%

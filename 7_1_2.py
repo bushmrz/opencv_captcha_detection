@@ -78,11 +78,14 @@ def test_recognition(rec_type, val_type, image_paths, truth_file, dpath):
 
     # Сохраняем прогнозы в файл в кодировке UTF-8
     predictions_file = f'{dpath}/{rec_type}_predictions.txt'
-    with open(predictions_file, 'w', encoding='utf-8') as file:
-        for image_path, prediction in predictions.items():
-            file.write(f"{image_path}: {prediction}\n")
 
-        return accuracy
+    if not(os.path.isfile(predictions_file) and os.path.getsize(predictions_file) > 0):
+        with open(predictions_file, 'w', encoding='utf-8') as file:
+                for image_path, prediction in predictions.items():
+                    file.write(f"{image_path}: {prediction}\n")
+
+        # res_file = f'result_{dpath}_{rec_type}_{val_type}_lab1.txt'
+    return accuracy
 
 def evaluate_accuracy_wordwise(ground_truth, predictions):
     correct = 0
@@ -98,21 +101,6 @@ def evaluate_accuracy_wordwise(ground_truth, predictions):
     accuracy = correct / total
     return accuracy
 
-# def evaluate_accuracy_wordwise(ground_truth, predictions):
-#     correct = 0
-#     total = len(ground_truth)
-#     # total = len(predictions)
-#
-#     for image_path, true_text in ground_truth.items():
-#         # for img, txt in predictions.items():
-#         predicted_text = predictions.get(image_path, '')
-#         true_words = set(true_text.split())
-#         predicted_words = set(predicted_text.split())
-#         if true_words == predicted_words:
-#             correct += 1
-#
-#     accuracy = correct / total
-#     return accuracy
 
 def evaluate_partial_accuracy_wordwise(ground_truth, predictions, threshold):
     correct = 0
@@ -154,33 +142,41 @@ def main():
     true_captcha_txt = 'capchi/true_text.txt'
     dpath = "capchi"
 
-    print("\nPart Match")
-
     recognition_type = 'easyocr'
     validation_type = 'part_match'
 
     accuracy = test_recognition(recognition_type, validation_type, image_paths, true_captcha_txt, dpath)
-    print(f"Точность для {recognition_type} распознавания: {accuracy * 100:.2f}%")
+
+    predictions_file = f'{dpath}/{recognition_type}_predictions.txt'
+    with open(predictions_file, 'a', encoding='utf-8') as file:
+        file.write( f"Точность для {recognition_type} {validation_type} распознавание по набору данных: {accuracy * 100:.2f}%\n")
 
     recognition_type = 'straight'
     validation_type = 'part_match'
 
     accuracy = test_recognition(recognition_type, validation_type, image_paths, true_captcha_txt, dpath)
-    print(f"Точность для {recognition_type} распознавания: {accuracy * 100:.2f}%")
 
-    print("\nFull Match")
+    predictions_file = f'{dpath}/{recognition_type}_predictions.txt'
+    with open(predictions_file, 'a', encoding='utf-8') as file:
+        file.write( f"Точность для {recognition_type} {validation_type} распознавание по набору данных: {accuracy * 100:.2f}%")
 
     recognition_type = 'easyocr'
     validation_type = 'full_match'
 
     accuracy = test_recognition(recognition_type, validation_type, image_paths, true_captcha_txt, dpath)
-    print(f"Точность для {recognition_type} распознавания: {accuracy * 100:.2f}%")
+
+    predictions_file = f'{dpath}/{recognition_type}_predictions.txt'
+    with open(predictions_file, 'a', encoding='utf-8') as file:
+        file.write( f"Точность для {recognition_type} {validation_type} распознавание по набору данных: {accuracy * 100:.2f}%\n")
 
     recognition_type = 'straight'
     validation_type = 'full_match'
 
     accuracy = test_recognition(recognition_type, validation_type, image_paths, true_captcha_txt, dpath)
-    print(f"Точность для {recognition_type} распознавания: {accuracy * 100:.2f}%")
+
+    predictions_file = f'{dpath}/{recognition_type}_predictions.txt'
+    with open(predictions_file, 'a', encoding='utf-8') as file:
+        file.write( f"Точность для {recognition_type} {validation_type} распознавание по набору данных: {accuracy * 100:.2f}%")
 
 
 def part2():
@@ -199,41 +195,44 @@ def part2():
     augmented_images = glob.glob(os.path.join(augmented_dataset_path, '*.jpg'))
 
     # Тестировать распознавание на аугментированном датасете
-    accuracy_augmented = test_recognition(recognition_type, validation_type, augmented_images,
+    accuracy = test_recognition(recognition_type, validation_type, augmented_images,
                                                              ground_truth_file, augmented_dataset_path)
 
-    print("\nFull Match")
-
-    print(
-        f"Точность для {recognition_type} распознавание по дополненному набору данных: {accuracy_augmented * 100:.2f}%")
+    predictions_file = f'{augmented_dataset_path}/{recognition_type}_predictions.txt'
+    with open(predictions_file, 'a', encoding='utf-8') as file:
+        file.write( f"Точность для {recognition_type} {validation_type} распознавание по набору данных: {accuracy * 100:.2f}%\n")
 
     recognition_type = 'straight'  # straight   easyocr
     validation_type = 'full_match'
 
     # # Тестировать распознавание на аугментированном датасете
-    accuracy_augmented = test_augmented_dataset(recognition_type, validation_type, augmented_dataset_path,
+    accuracy = test_augmented_dataset(recognition_type, validation_type, augmented_dataset_path,
                                                              ground_truth_file, augmented_dataset_path)
-    print(
-        f"Точность для {recognition_type} распознавание по дополненному набору данных: {accuracy_augmented * 100:.2f}%")
 
-    print("\nPart Match")
+    predictions_file = f'{augmented_dataset_path}/{recognition_type}_predictions.txt'
+    with open(predictions_file, 'a', encoding='utf-8') as file:
+        file.write( f"Точность для {recognition_type} {validation_type} распознавание по набору данных: {accuracy * 100:.2f}%\n")
 
     recognition_type = 'easyocr'
     validation_type = 'part_match'
 
     accuracy = test_augmented_dataset(recognition_type, validation_type, augmented_dataset_path,
                                                              ground_truth_file, augmented_dataset_path)
-    print(f"Точность для {recognition_type} распознавания: {accuracy * 100:.2f}%")
+
+    predictions_file = f'{augmented_dataset_path}/{recognition_type}_predictions.txt'
+    with open(predictions_file, 'a', encoding='utf-8') as file:
+        file.write( f"Точность для {recognition_type} {validation_type} распознавание по набору данных: {accuracy * 100:.2f}%")
 
     recognition_type = 'straight'
     validation_type = 'part_match'
 
     accuracy = test_augmented_dataset(recognition_type, validation_type, augmented_dataset_path,
                                                              ground_truth_file, augmented_dataset_path)
-    print(f"Точность для {recognition_type} распознавания: {accuracy * 100:.2f}%")
 
-# if __name__ == "__main__":
-#     main()
+    predictions_file = f'{augmented_dataset_path}/{recognition_type}_predictions.txt'
+
+    with open(predictions_file, 'a', encoding='utf-8') as file:
+        file.write( f"Точность для {recognition_type} {validation_type} распознавание по набору данных: {accuracy * 100:.2f}%")
 
 # main()
 part2()

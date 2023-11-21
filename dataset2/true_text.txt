@@ -1,0 +1,11 @@
+dataset2/1-.jpg: земляного родилась
+dataset2/2-.jpg: дружбу cloudless
+dataset2/3-.jpg: застыло безопасно
+dataset2/4-.jpg: величии лишил
+dataset2/5-.jpg: croaked растаял
+dataset2/6-.jpg: вот он ваш знак
+dataset2/7-.jpg: величии лишил
+dataset2/8-.jpg: серьги корону
+dataset2/9-.jpg: гидов лавки
+dataset2/10-.jpg: охотно нанял
+dataset2/11-.jpg: croaked растаял

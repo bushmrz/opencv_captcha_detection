@@ -1,0 +1,454 @@
+dataset2\1-_-1.jpg: родилась земляного
+dataset2\1-_-10.jpg: вемляного родиласы
+dataset2\1-_-11.jpg: вемляного родиласы
+dataset2\1-_-12.jpg: земляного родиласы
+dataset2\1-_-13.jpg: земляного родилась
+dataset2\1-_-14.jpg: оемляного родилась
+dataset2\1-_-15.jpg: вемляного родилас
+dataset2\1-_-16.jpg: амляного родила
+dataset2\1-_-17.jpg: Смляного родила
+dataset2\1-_-18.jpg: мляного родил
+dataset2\1-_-19.jpg: мляного родил:
+dataset2\1-_-2.jpg: родилась земляного
+dataset2\1-_-20.jpg: мляного родила
+dataset2\1-_-3.jpg: [земляного родилась
+dataset2\1-_-4.jpg: [земляного родилась
+dataset2\1-_-5.jpg: земляного родилась
+dataset2\1-_-6.jpg: [земляного родилась
+dataset2\1-_-7.jpg: земляного родилась
+dataset2\1-_-8.jpg: земляного родилась
+dataset2\1-_-9.jpg: вемляного родиласы
+dataset2\1-_0.jpg: родилась земляного
+dataset2\1-_1.jpg: родилась земляного
+dataset2\1-_10.jpg: земляного родиласьа
+dataset2\1-_11.jpg: земляного родилась
+dataset2\1-_12.jpg: земляного родилась
+dataset2\1-_13.jpg: земляного родилась
+dataset2\1-_14.jpg: земляного родилась
+dataset2\1-_15.jpg: родиласьр [земляного
+dataset2\1-_16.jpg: родилась [земляного
+dataset2\1-_17.jpg: родиласы (земляного
+dataset2\1-_18.jpg: родилась [земляного
+dataset2\1-_19.jpg: родилась земляного
+dataset2\1-_2.jpg: родилась [земляного
+dataset2\1-_20.jpg: родиласы земляного
+dataset2\1-_3.jpg: родилась [земляного
+dataset2\1-_4.jpg: земляного родилась
+dataset2\1-_5.jpg: земляного родилась
+dataset2\1-_6.jpg: земляного родилась
+dataset2\1-_7.jpg: земляного родилась
+dataset2\1-_8.jpg: земляного родилась'
+dataset2\1-_9.jpg: земляного родилась
+dataset2\10-_-1.jpg: нанял охотно
+dataset2\10-_-10.jpg: Охотно нанял
+dataset2\10-_-11.jpg: Охотно нанял
+dataset2\10-_-12.jpg: охотно Нанял
+dataset2\10-_-13.jpg: охотно Нанял
+dataset2\10-_-14.jpg: охотно Нанял
+dataset2\10-_-15.jpg: охотно Нанял
+dataset2\10-_-16.jpg: охотно нанял
+dataset2\10-_-17.jpg: охотно нанял
+dataset2\10-_-18.jpg: охотно нанял
+dataset2\10-_-19.jpg: 'Охотно нанял
+dataset2\10-_-2.jpg: нанял охотно
+dataset2\10-_-20.jpg: (охотно нанял
+dataset2\10-_-3.jpg: Нанял охотно
+dataset2\10-_-4.jpg: нанял охотно
+dataset2\10-_-5.jpg: охотно нанял
+dataset2\10-_-6.jpg: охотно нанял
+dataset2\10-_-7.jpg: охотно нанял
+dataset2\10-_-8.jpg: охотно нанял
+dataset2\10-_-9.jpg: охотно нанял
+dataset2\10-_0.jpg: нанял охотно
+dataset2\10-_1.jpg: нанял охотно
+dataset2\10-_10.jpg: нанял [охотно
+dataset2\10-_11.jpg: нанял охотно
+dataset2\10-_12.jpg: нанял охотно
+dataset2\10-_13.jpg: Нанял ЬХотно
+dataset2\10-_14.jpg: нанял @ХОтно
+dataset2\10-_15.jpg: нанял @хотно
+dataset2\10-_16.jpg: нанлл хотно
+dataset2\10-_17.jpg: наня хOтHо
+dataset2\10-_18.jpg: нанд хOтHо
+dataset2\10-_19.jpg: наня хOтHо
+dataset2\10-_2.jpg: нанял Тохотно
+dataset2\10-_20.jpg: нанл хOTHO
+dataset2\10-_3.jpg: нанял Тохотно
+dataset2\10-_4.jpg: нанял' [охотно
+dataset2\10-_5.jpg: нанялт [охотно
+dataset2\10-_6.jpg: нанялт [охотно
+dataset2\10-_7.jpg: нанял [охотно
+dataset2\10-_8.jpg: нанял [охотно
+dataset2\10-_9.jpg: нанял [охотно
+dataset2\11-_-1.jpg: растаял) croaked
+dataset2\11-_-10.jpg: растаял croaked
+dataset2\11-_-11.jpg: растаял croaked
+dataset2\11-_-12.jpg: растаял croaked
+dataset2\11-_-13.jpg: растаял croaked
+dataset2\11-_-14.jpg: растаял croaked
+dataset2\11-_-15.jpg: растаЯл, croaked
+dataset2\11-_-16.jpg: РастаЯл ~roaked
+dataset2\11-_-17.jpg: Растаял croaked
+dataset2\11-_-18.jpg: ~roaked растаял)
+dataset2\11-_-19.jpg: eroaked растаял
+dataset2\11-_-2.jpg: croaked растаял)
+dataset2\11-_-20.jpg: toaked растаял
+dataset2\11-_-3.jpg: [croaked растаял)
+dataset2\11-_-4.jpg: [croaked растаял
+dataset2\11-_-5.jpg: [croaked растаял)
+dataset2\11-_-6.jpg: [croaked растаял)
+dataset2\11-_-7.jpg: растаял [croaked
+dataset2\11-_-8.jpg: растаял [croaked
+dataset2\11-_-9.jpg: растаЯл [croaked
+dataset2\11-_0.jpg: растаял) croaked
+dataset2\11-_1.jpg: растаял| croaked
+dataset2\11-_10.jpg: croaked растаял
+dataset2\11-_11.jpg: croaked растаял
+dataset2\11-_12.jpg: croaked растаял
+dataset2\11-_13.jpg: croaked растаяш
+dataset2\11-_14.jpg: croaked растаял
+dataset2\11-_15.jpg: croaked растаям
+dataset2\11-_16.jpg: croaked растаяг
+dataset2\11-_17.jpg: растаяи croaked
+dataset2\11-_18.jpg: растан croaked
+dataset2\11-_19.jpg: растан croaked
+dataset2\11-_2.jpg: растаял croaked
+dataset2\11-_20.jpg: растаж croaked
+dataset2\11-_3.jpg: растаял [croaked
+dataset2\11-_4.jpg: растаял croaked
+dataset2\11-_5.jpg: 'растаял) icroaked
+dataset2\11-_6.jpg: croaked 'растаял
+dataset2\11-_7.jpg: croaked растаял
+dataset2\11-_8.jpg: croaked растаял
+dataset2\11-_9.jpg: croaked растаял
+dataset2\2-_-1.jpg: cloudless [друЖбу
+dataset2\2-_-10.jpg: дружбу ' cloudless
+dataset2\2-_-11.jpg: друЖбу ( cloudless
+dataset2\2-_-12.jpg: дружбу ' cloudless
+dataset2\2-_-13.jpg: дружбу ! cloudless
+dataset2\2-_-14.jpg: друЖбу ( cloudless
+dataset2\2-_-15.jpg: дружбу ( cloudles
+dataset2\2-_-16.jpg: дружбу  cloudlesd
+dataset2\2-_-17.jpg: дрЖбу ' cloudlesd
+dataset2\2-_-18.jpg: ружбу ' cloudlesa
+dataset2\2-_-19.jpg: кружбу ( cloudlese
+dataset2\2-_-2.jpg: cloudless друЖбу
+dataset2\2-_-20.jpg: АруЖбу ( cloudles
+dataset2\2-_-3.jpg: дружбу ' cloudless
+dataset2\2-_-4.jpg: дружбу  cloudless
+dataset2\2-_-5.jpg: дружбу ( cloudless
+dataset2\2-_-6.jpg: друЖбу ! cloudles
+dataset2\2-_-7.jpg: дружбу ' cloudless
+dataset2\2-_-8.jpg: дружбу ' cloudles
+dataset2\2-_-9.jpg: дружбу ' cloudless
+dataset2\2-_0.jpg: cloudless [дружбу
+dataset2\2-_1.jpg: cloudless дружбу
+dataset2\2-_10.jpg: loudless дружбу
+dataset2\2-_11.jpg: Cloudless друЖбу
+dataset2\2-_12.jpg: cloudless друЖбу
+dataset2\2-_13.jpg: cloudless дэуЖбу '
+dataset2\2-_14.jpg: cloudless друЖбу '
+dataset2\2-_15.jpg: cloudless дыужбу '
+dataset2\2-_16.jpg: Cloudlesy дыуЖбу
+dataset2\2-_17.jpg: доуЖбу ( cloudlesq
+dataset2\2-_18.jpg: Cloudless дыжбу
+dataset2\2-_19.jpg: cloudlesa хыЖбу'
+dataset2\2-_2.jpg: дрУЖбу cloudless
+dataset2\2-_20.jpg: 5iъ {жбу cloudles
+dataset2\2-_3.jpg: друЖбу cloudless
+dataset2\2-_4.jpg: друЖбу Cloudless
+dataset2\2-_5.jpg: друЖбу cloudless
+dataset2\2-_6.jpg: cloudless друЖбу
+dataset2\2-_7.jpg: cloudless АруЖбу
+dataset2\2-_8.jpg: cloudless дружбу
+dataset2\2-_9.jpg: cloudless дружбу
+dataset2\3-_-1.jpg: безоnасно засmыло
+dataset2\3-_-10.jpg: зacmыло безоnаcно
+dataset2\3-_-11.jpg: заcmыло безоnасно
+dataset2\3-_-12.jpg: зacmыло безоnаcно
+dataset2\3-_-13.jpg: вacmыло безоnаcно
+dataset2\3-_-14.jpg: sacmыло безоnаcно
+dataset2\3-_-15.jpg: sucmыло безоnаcно'
+dataset2\3-_-16.jpg: sucmыло безоnаcHо
+dataset2\3-_-17.jpg: cucmыло безоnаcнo
+dataset2\3-_-18.jpg: acmыло безоnаcно
+dataset2\3-_-19.jpg: Itmыло безоnacuo
+dataset2\3-_-2.jpg: безоnacно заcmыло
+dataset2\3-_-20.jpg: tmыло безоnacuo
+dataset2\3-_-3.jpg: безоnаcно зacmыло
+dataset2\3-_-4.jpg: безоnасно засmыло
+dataset2\3-_-5.jpg: безопасно- засmыло
+dataset2\3-_-6.jpg: засmыло безопасно
+dataset2\3-_-7.jpg: засmыло безоnаснo
+dataset2\3-_-8.jpg: засmыло безоnасно
+dataset2\3-_-9.jpg: засmыло безоnаcно
+dataset2\3-_0.jpg: безоnасно засmыло
+dataset2\3-_1.jpg: безоnаcно засmыло
+dataset2\3-_10.jpg: зacmыло безопасно
+dataset2\3-_11.jpg: зacmыnо безоnасно
+dataset2\3-_12.jpg: зacmыло безоnасно
+dataset2\3-_13.jpg: зacmыло безоnacно
+dataset2\3-_14.jpg: засmыло безоnасно
+dataset2\3-_15.jpg: засmыло безоnаcно
+dataset2\3-_16.jpg: зaсmыло` безоnаcно]
+dataset2\3-_17.jpg: безоnаcно] засmыло
+dataset2\3-_18.jpg: безоnacн" зaсmыло
+dataset2\3-_19.jpg: безоnаcнч зacmыло
+dataset2\3-_2.jpg: безоnаcно засmыло
+dataset2\3-_20.jpg: безоnаcн' засmыло
+dataset2\3-_3.jpg: безопасно' засmыло
+dataset2\3-_4.jpg: зaсmыло безопасноц
+dataset2\3-_5.jpg: зacmыno безоnаcно
+dataset2\3-_6.jpg: засmыло безоnacно
+dataset2\3-_7.jpg: засmыло безоnаcно
+dataset2\3-_8.jpg: зacmыnо безоnaсно[
+dataset2\3-_9.jpg: засmыло безоnасно[
+dataset2\4-_-1.jpg: eenuчuu nuwun
+dataset2\4-_-10.jpg: [вeлuчuч nuwun
+dataset2\4-_-11.jpg: [eenuчuu nuwun
+dataset2\4-_-12.jpg: велuчuч nuwun
+dataset2\4-_-13.jpg: enuчuч nuwun
+dataset2\4-_-14.jpg: enuчuu nuwu
+dataset2\4-_-15.jpg: benuчuч nuww
+dataset2\4-_-16.jpg: benuчuu nuwu
+dataset2\4-_-17.jpg: benuчuu nuw
+dataset2\4-_-18.jpg: Uenuчuu nuwu
+dataset2\4-_-19.jpg: ~лuчuu nuw
+dataset2\4-_-2.jpg: eenuчuu nuwuл
+dataset2\4-_-20.jpg: Vuчuч nuw
+dataset2\4-_-3.jpg: eenuчuu nuwun
+dataset2\4-_-4.jpg: eeлuчuu nuwuл'
+dataset2\4-_-5.jpg: eenuчuч лuwuл
+dataset2\4-_-6.jpg: leeлuччч nuwuл
+dataset2\4-_-7.jpg: [велчччч nuwun
+dataset2\4-_-8.jpg: leenuчuu nuwun
+dataset2\4-_-9.jpg: [eeлччuч nuwun
+dataset2\4-_0.jpg: eenuчuч nuwuл'
+dataset2\4-_1.jpg: велuчuч nuwuл
+dataset2\4-_10.jpg: nuwun leeлчччч
+dataset2\4-_11.jpg: nuwuл' [велччuч
+dataset2\4-_12.jpg: nuwuл leenuчuu
+dataset2\4-_13.jpg: nuwuл eenuчuu
+dataset2\4-_14.jpg: nuwun leenuчuч
+dataset2\4-_15.jpg: nuwun eenuчuu
+dataset2\4-_16.jpg: nuwun (eenuчuu
+dataset2\4-_17.jpg: nuwuл' eenuчuч
+dataset2\4-_18.jpg: nuwun eenuчuu
+dataset2\4-_19.jpg: nuwuл' eenuчuu
+dataset2\4-_2.jpg: велчччч nuwun
+dataset2\4-_20.jpg: лuшuл [eenuчuu
+dataset2\4-_3.jpg: велuчuu nuwuл'
+dataset2\4-_4.jpg: eenuчuu nuwun
+dataset2\4-_5.jpg: велчччч nuwunl
+dataset2\4-_6.jpg: nuwuл' велuчuч
+dataset2\4-_7.jpg: nuuunl eenuчuч
+dataset2\4-_8.jpg: nuwuл' eeлuчuч
+dataset2\4-_9.jpg: nuwuл' eenuчuu
+dataset2\5-_-1.jpg: растаял) croaked
+dataset2\5-_-10.jpg: растаял croaked
+dataset2\5-_-11.jpg: растаял croaked
+dataset2\5-_-12.jpg: растаял croaked
+dataset2\5-_-13.jpg: растаял croaked
+dataset2\5-_-14.jpg: растаял croaked
+dataset2\5-_-15.jpg: растаЯл, croaked
+dataset2\5-_-16.jpg: РастаЯл ~roaked
+dataset2\5-_-17.jpg: Растаял croaked
+dataset2\5-_-18.jpg: ~roaked растаял)
+dataset2\5-_-19.jpg: eroaked растаял
+dataset2\5-_-2.jpg: croaked растаял)
+dataset2\5-_-20.jpg: toaked растаял
+dataset2\5-_-3.jpg: [croaked растаял)
+dataset2\5-_-4.jpg: [croaked растаял
+dataset2\5-_-5.jpg: [croaked растаял)
+dataset2\5-_-6.jpg: [croaked растаял)
+dataset2\5-_-7.jpg: растаял [croaked
+dataset2\5-_-8.jpg: растаял [croaked
+dataset2\5-_-9.jpg: растаЯл [croaked
+dataset2\5-_0.jpg: растаял) croaked
+dataset2\5-_1.jpg: растаял| croaked
+dataset2\5-_10.jpg: croaked растаял
+dataset2\5-_11.jpg: croaked растаял
+dataset2\5-_12.jpg: croaked растаял
+dataset2\5-_13.jpg: croaked растаяш
+dataset2\5-_14.jpg: croaked растаял
+dataset2\5-_15.jpg: croaked растаям
+dataset2\5-_16.jpg: croaked растаяг
+dataset2\5-_17.jpg: растаяи croaked
+dataset2\5-_18.jpg: растан croaked
+dataset2\5-_19.jpg: растан croaked
+dataset2\5-_2.jpg: растаял croaked
+dataset2\5-_20.jpg: растаж croaked
+dataset2\5-_3.jpg: растаял [croaked
+dataset2\5-_4.jpg: растаял croaked
+dataset2\5-_5.jpg: 'растаял) icroaked
+dataset2\5-_6.jpg: croaked 'растаял
+dataset2\5-_7.jpg: croaked растаял
+dataset2\5-_8.jpg: croaked растаял
+dataset2\5-_9.jpg: croaked растаял
+dataset2\6-_-1.jpg: он ваш Вот знак
+dataset2\6-_-10.jpg: Вот он ваш знак
+dataset2\6-_-11.jpg: Вот он ваш знак
+dataset2\6-_-12.jpg: 'Вот он ваш знак
+dataset2\6-_-13.jpg: 'Вот он ваш знак
+dataset2\6-_-14.jpg: Вот он ваш знак
+dataset2\6-_-15.jpg: Вот он ваш знак
+dataset2\6-_-16.jpg: Вот он ваш зна
+dataset2\6-_-17.jpg: Вот он ваш зна
+dataset2\6-_-18.jpg: Вот он ваш зна'
+dataset2\6-_-19.jpg: Вот он ваш зна
+dataset2\6-_-2.jpg: он ваш Вот знак
+dataset2\6-_-20.jpg: Вот он ваш зна
+dataset2\6-_-3.jpg: Вот он ваш знак
+dataset2\6-_-4.jpg: Вот он ваш знак
+dataset2\6-_-5.jpg: Вот он ваш знак
+dataset2\6-_-6.jpg: Вот он ваш знак
+dataset2\6-_-7.jpg: Вот он ваш знак
+dataset2\6-_-8.jpg: Вот он ваш знак
+dataset2\6-_-9.jpg: Вот он ваш знак
+dataset2\6-_0.jpg: он ваш знак Вот
+dataset2\6-_1.jpg: он ваш знак Вот
+dataset2\6-_10.jpg: знак ваш он Вот
+dataset2\6-_11.jpg: знак ваш он [Вот
+dataset2\6-_12.jpg: знак ваш он [Вот
+dataset2\6-_13.jpg: знак он ваш [вот
+dataset2\6-_14.jpg: знак он ваш [Вот
+dataset2\6-_15.jpg: знак ваш он [вот
+dataset2\6-_16.jpg: знак ваш он вот
+dataset2\6-_17.jpg: знак ваш оН [от
+dataset2\6-_18.jpg: знак ваш он [от
+dataset2\6-_19.jpg: знак ваш он [от
+dataset2\6-_2.jpg: он ваш знак Вот
+dataset2\6-_20.jpg: знак он ваш хот
+dataset2\6-_3.jpg: он ваш знак Вот
+dataset2\6-_4.jpg: он ваш знак Вот
+dataset2\6-_5.jpg: он ваш знак Вот
+dataset2\6-_6.jpg: он ваш знак Вот
+dataset2\6-_7.jpg: ваш знак он Вот
+dataset2\6-_8.jpg: он ваш знак Вот
+dataset2\6-_9.jpg: знак ваш он Вот
+dataset2\7-_-1.jpg: eenuчuu nuwun
+dataset2\7-_-10.jpg: [вeлuчuч nuwun
+dataset2\7-_-11.jpg: [eenuчuu nuwun
+dataset2\7-_-12.jpg: велuчuч nuwun
+dataset2\7-_-13.jpg: enuчuч nuwun
+dataset2\7-_-14.jpg: enuчuu nuwu
+dataset2\7-_-15.jpg: benuчuч nuww
+dataset2\7-_-16.jpg: benuчuu nuwu
+dataset2\7-_-17.jpg: benuчuu nuw
+dataset2\7-_-18.jpg: Uenuчuu nuwu
+dataset2\7-_-19.jpg: ~лuчuu nuw
+dataset2\7-_-2.jpg: eenuчuu nuwuл
+dataset2\7-_-20.jpg: Vuчuч nuw
+dataset2\7-_-3.jpg: eenuчuu nuwun
+dataset2\7-_-4.jpg: eeлuчuu nuwuл'
+dataset2\7-_-5.jpg: eenuчuч лuwuл
+dataset2\7-_-6.jpg: leeлuччч nuwuл
+dataset2\7-_-7.jpg: [велчччч nuwun
+dataset2\7-_-8.jpg: leenuчuu nuwun
+dataset2\7-_-9.jpg: [eeлччuч nuwun
+dataset2\7-_0.jpg: eenuчuч nuwuл'
+dataset2\7-_1.jpg: велuчuч nuwuл
+dataset2\7-_10.jpg: nuwun leeлчччч
+dataset2\7-_11.jpg: nuwuл' [велччuч
+dataset2\7-_12.jpg: nuwuл leenuчuu
+dataset2\7-_13.jpg: nuwuл eenuчuu
+dataset2\7-_14.jpg: nuwun leenuчuч
+dataset2\7-_15.jpg: nuwun eenuчuu
+dataset2\7-_16.jpg: nuwun (eenuчuu
+dataset2\7-_17.jpg: nuwuл' eenuчuч
+dataset2\7-_18.jpg: nuwun eenuчuu
+dataset2\7-_19.jpg: nuwuл' eenuчuu
+dataset2\7-_2.jpg: велчччч nuwun
+dataset2\7-_20.jpg: лuшuл [eenuчuu
+dataset2\7-_3.jpg: велuчuu nuwuл'
+dataset2\7-_4.jpg: eenuчuu nuwun
+dataset2\7-_5.jpg: велчччч nuwunl
+dataset2\7-_6.jpg: nuwuл' велuчuч
+dataset2\7-_7.jpg: nuuunl eenuчuч
+dataset2\7-_8.jpg: nuwuл' eeлuчuч
+dataset2\7-_9.jpg: nuwuл' eenuчuu
+dataset2\8-_-1.jpg: серьги корону
+dataset2\8-_-10.jpg: серьи корону
+dataset2\8-_-11.jpg: серьги корону
+dataset2\8-_-12.jpg: серьги корону]
+dataset2\8-_-13.jpg: серьги корону]
+dataset2\8-_-14.jpg: серьги корону
+dataset2\8-_-15.jpg: 'корону серьги
+dataset2\8-_-16.jpg: корону серьи
+dataset2\8-_-17.jpg: корону серьги
+dataset2\8-_-18.jpg: корону серьги
+dataset2\8-_-19.jpg: корону серьги
+dataset2\8-_-2.jpg: корону серьги
+dataset2\8-_-20.jpg: корону серьги
+dataset2\8-_-3.jpg: корону серьги
+dataset2\8-_-4.jpg: корону серыи
+dataset2\8-_-5.jpg: 'корону серьги
+dataset2\8-_-6.jpg: 'корону серьги
+dataset2\8-_-7.jpg: корону серыи
+dataset2\8-_-8.jpg: корону серьги
+dataset2\8-_-9.jpg: корону] серьги
+dataset2\8-_0.jpg: серьги корону
+dataset2\8-_1.jpg: серьги корону
+dataset2\8-_10.jpg: корону сепыги
+dataset2\8-_11.jpg: корону сепыги
+dataset2\8-_12.jpg: корог> сеnыги
+dataset2\8-_13.jpg: корог > хenbги
+dataset2\8-_14.jpg: коров . хеnbги
+dataset2\8-_15.jpg: кором ХаньгИ
+dataset2\8-_16.jpg: кором хаинги
+dataset2\8-_17.jpg: коро: Ааnнги
+dataset2\8-_18.jpg: коро> твъги
+dataset2\8-_19.jpg: коро: кги
+dataset2\8-_2.jpg: серыги корону
+dataset2\8-_20.jpg: коро ги
+dataset2\8-_3.jpg: серьги корону
+dataset2\8-_4.jpg: серьги корону
+dataset2\8-_5.jpg: серьги корону
+dataset2\8-_6.jpg: серыи корону
+dataset2\8-_7.jpg: серьги корон}
+dataset2\8-_8.jpg: серыги корон}
+dataset2\8-_9.jpg: серыги корон}
+dataset2\9-_-1.jpg: гидов лавки
+dataset2\9-_-10.jpg: лавки гидов
+dataset2\9-_-11.jpg: лавки тидов
+dataset2\9-_-12.jpg: лавки гидов
+dataset2\9-_-13.jpg: лавки идов
+dataset2\9-_-14.jpg: лавкир Тидов
+dataset2\9-_-15.jpg: Тидов лавки
+dataset2\9-_-16.jpg: тидов ллавки
+dataset2\9-_-17.jpg: 7 Идов ллавки
+dataset2\9-_-18.jpg: Идов лавки
+dataset2\9-_-19.jpg: идов 'лавки
+dataset2\9-_-2.jpg: гидов лавкир
+dataset2\9-_-20.jpg: идов лавки
+dataset2\9-_-3.jpg: лавки [гидов
+dataset2\9-_-4.jpg: ллавки гидов
+dataset2\9-_-5.jpg: лавки гидов
+dataset2\9-_-6.jpg: лавки гИдов
+dataset2\9-_-7.jpg: лавки гидов
+dataset2\9-_-8.jpg: лавки гидов
+dataset2\9-_-9.jpg: лавки гидов
+dataset2\9-_0.jpg: гиИдов ллавки|
+dataset2\9-_1.jpg: лавки ГИДов
+dataset2\9-_10.jpg: гидов лавки
+dataset2\9-_11.jpg: гидов ллавки
+dataset2\9-_12.jpg: гидов лавки
+dataset2\9-_13.jpg: лавки гИдов
+dataset2\9-_14.jpg: лавки гидов
+dataset2\9-_15.jpg: лавки гидов
+dataset2\9-_16.jpg: лавки гиИдов
+dataset2\9-_17.jpg: лавки гидов
+dataset2\9-_18.jpg: лавки гидов
+dataset2\9-_19.jpg: лавки гидов
+dataset2\9-_2.jpg: гидов ллавки
+dataset2\9-_20.jpg: лавки гидов
+dataset2\9-_3.jpg: гидов лавки
+dataset2\9-_4.jpg: гидов лавки)
+dataset2\9-_5.jpg: гидов лавки
+dataset2\9-_6.jpg: гИдов лавки
+dataset2\9-_7.jpg: гидов лавки
+dataset2\9-_8.jpg: гидов ллавки
+dataset2\9-_9.jpg: гидов лавки
+
+Точность для easyocr full_match распознавание по набору данных: 28.38%
+Точность для easyocr part_match распознавание по набору данных: 75.17%

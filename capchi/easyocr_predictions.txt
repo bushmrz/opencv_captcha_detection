@@ -9,3 +9,5 @@ capchi/8-.jpg: серьги корону
 capchi/9-.jpg: гиИдов ллавки|
 capchi/10-.jpg: нанял охотно
 capchi/11-.jpg: растаял) croaked
+Точность для easyocr part_match распознавание по набору данных: 81.82%
+Точность для easyocr full_match распознавание по набору данных: 27.27%
