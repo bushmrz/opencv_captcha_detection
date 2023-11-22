@@ -26,7 +26,6 @@ def rel_path(rel_path):
 
 # tesseract
 def straight_recognition(image_path):
-    predictions = {}
 
     img = Image.open(image_path)
     text = pytesseract.image_to_string(img, config=tesseract_config, lang="train/test4")
@@ -36,13 +35,11 @@ def straight_recognition(image_path):
 
 
 # easyocr
-def easyocr_recognition(image_paths):
-    predictions = {}
-    for image_path in image_paths:
-        img = Image.open(image_path)
-        result = reader.readtext(image_path)
-        text = ' '.join([item[1] for item in result])
-        predictions[image_path] = text.strip()
+def easyocr_recognition(image_path):
+
+    result = reader.readtext(image_path, detail=70)
+    text = ' '.join([item[1] for item in result])
+    predictions = text.strip()
 
     return predictions
 
@@ -73,7 +70,7 @@ def avg_of_aug(img, img_file, dict_for_avg_of_aug_dataset):
 
 def test_recognition(rec_type, val_type, image_paths, truth_file, dpath):
     accuracy = 0
-    predictions = {}
+    # predictions = {}
     labels = {}
     dict_for_avg_of_aug_dataset = {}
     output_str = ''
@@ -93,12 +90,8 @@ def test_recognition(rec_type, val_type, image_paths, truth_file, dpath):
     img_files = list(
         pathlib.Path(str(rel_path(dpath))).glob("*.jpg")
     )
-    #
-    # if rec_type == 'straight':
-    #     predictions = straight_recognition(image_paths)
-    if rec_type == 'easyocr':
-        predictions = easyocr_recognition(image_paths)
-    elif rec_type == 'filtered_recognition' or rec_type == 'avg_of_aug' or 'straight':
+
+    if rec_type == 'filtered_recognition' or rec_type == 'avg_of_aug' or 'straight' or rec_type == 'easyocr':
 
         for img_file in img_files:
             img = cv2.imread(str(img_file.resolve()), 0)
@@ -107,6 +100,8 @@ def test_recognition(rec_type, val_type, image_paths, truth_file, dpath):
             if rec_type == "filtered_recognition":
 
                 result, groud_truth = filtered_recognition(img, groud_truth)
+            elif rec_type == 'easyocr':
+                result = easyocr_recognition(img)
 
             elif rec_type == "avg_of_aug":
                 result = pytesseract.image_to_string(img, lang="train/test4")
@@ -137,10 +132,10 @@ def test_recognition(rec_type, val_type, image_paths, truth_file, dpath):
         output_str += "\n"
 
         if val_type == "full_match":
-            output_str += f"Точность для {rec_type} распознавание по набору данных {dpath} on train: {accuracy/images_count * 100:.2f}%"
+            output_str += f"Точность для {rec_type} распознавание по набору данных {dpath}: {accuracy/images_count * 100:.2f}%"
         elif val_type == "part_match":
             output_str += (
-                f"Точность для {rec_type} распознавание по набору данных {dpath} on train: {accuracy / images_count * 100:.2f}%"
+                f"Точность для {rec_type} распознавание по набору данных {dpath}: {accuracy / images_count * 100:.2f}%"
             )
 
         with open(
@@ -156,25 +151,23 @@ def test_recognition(rec_type, val_type, image_paths, truth_file, dpath):
     else:
         raise ValueError(f"Unsupported recognition type: {rec_type}")
 
-    groud_truth = labels
-    # Оцениваем точность на основе указанного типа проверки
-    if rec_type == 'straight' or rec_type == 'easyocr':
-        if val_type == 'full_match':
-            accuracy = evaluate_accuracy_wordwise(groud_truth, predictions)
-        if val_type == "part_match":
-            accuracy = evaluate_partial_accuracy_wordwise(groud_truth, predictions, 0.7)
+    # groud_truth = labels
+    # # Оцениваем точность на основе указанного типа проверки
+    # if rec_type == 'straight' or rec_type == 'easyocr':
+    #     if val_type == 'full_match':
+    #         accuracy = evaluate_accuracy_wordwise(groud_truth, predictions)
+    #     if val_type == "part_match":
+    #         accuracy = evaluate_partial_accuracy_wordwise(groud_truth, predictions, 0.7)
 
-        # Сохраняем прогнозы в файл в кодировке UTF-8
-        predictions_file = f'{dpath}/{rec_type}_predictions_on_train.txt'
-        with open(predictions_file, 'w', encoding='utf-8') as file:
-            for image_path, prediction in predictions.items():
-                file.write(f"{image_path}: {prediction}\n")
+    #     # Сохраняем прогнозы в файл в кодировке UTF-8
+    # predictions_file = f'{dpath}/{rec_type}_predictions_on_train.txt'
+    # with open(predictions_file, 'w', encoding='utf-8') as file:
+    #     for image_path, prediction in predictions.items():
+    #         file.write(f"{image_path}: {prediction}\n")
 
 
 def on_train():
-    recognition_type = 'filtered_recognition'
-    recognition_type2 = 'avg_of_aug'
-    recognition_type3 = 'straight'
+    recognition_type = 'easyocr'
 
     validation_type = 'part_match'
     validation_type2 = 'full_match'
@@ -195,26 +188,9 @@ def on_train():
     test_recognition(recognition_type, validation_type, augmented_images, ground_truth_file, augmented_dataset_path)
     test_recognition(recognition_type, validation_type2, augmented_images, ground_truth_file, augmented_dataset_path)
 
-    # avg_of_aug
-    test_recognition(recognition_type2, validation_type, augmented_images, ground_truth_file, augmented_dataset_path)
-    test_recognition(recognition_type2, validation_type2, augmented_images, ground_truth_file, augmented_dataset_path)
-    #
-    # straight
-    test_recognition(recognition_type3, validation_type, augmented_images, ground_truth_file, augmented_dataset_path)
-    test_recognition(recognition_type3, validation_type2, augmented_images, ground_truth_file, augmented_dataset_path)
-
     ###################################### dataset1 (capchi) #######################################################
-    # filtered_recognition
     test_recognition(recognition_type, validation_type, image_paths, true_captcha_txt, original_dataset_path)
     test_recognition(recognition_type, validation_type2, image_paths, true_captcha_txt, original_dataset_path)
-
-    # avg_of_aug
-    test_recognition(recognition_type2, validation_type, image_paths, true_captcha_txt, original_dataset_path)
-    test_recognition(recognition_type2, validation_type2, image_paths, true_captcha_txt, original_dataset_path)
-
-    # straight
-    test_recognition(recognition_type3, validation_type, image_paths, true_captcha_txt, original_dataset_path)
-    test_recognition(recognition_type3, validation_type2, image_paths, true_captcha_txt, original_dataset_path)
 
 on_train()
 

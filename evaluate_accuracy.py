@@ -1,6 +1,5 @@
 from calculate_similarity_score import calculate_similarity_score
 
-
 def evaluate_accuracy_wordwise(ground_truth, predictions):
     if not predictions:
         return 0
@@ -34,8 +33,7 @@ def evaluate_partial_accuracy_wordwise(ground_truth, predictions, threshold):
             matched_words = 0
             for true_word in true_words:
                 for predicted_word in predicted_words:
-                    if calculate_similarity_score(true_word,
-                                                  predicted_word) >= threshold:  # Пример использования порогового значения
+                    if calculate_similarity_score(true_word, predicted_word) >= threshold:  # Пример использования порогового значения
                         matched_words += 1
                         break
 
@@ -44,7 +42,6 @@ def evaluate_partial_accuracy_wordwise(ground_truth, predictions, threshold):
 
     accuracy = correct / total
     return accuracy
-
 
 def evaluate_accuracy_wordwise_one(ground_truth, predictions):
     if not predictions:
@@ -59,13 +56,11 @@ def evaluate_accuracy_wordwise_one(ground_truth, predictions):
 
     return 1 if correct == total else 0
 
-
 def evaluate_partial_accuracy_wordwise_one(ground_truth, predictions, threshold):
     if not predictions:
         return 0
 
     correct = 0
-    total = len(predictions)
 
     true_words = set(ground_truth.split())
     predicted_words = set(predictions.split())
@@ -80,4 +75,4 @@ def evaluate_partial_accuracy_wordwise_one(ground_truth, predictions, threshold)
     if matched_words == len(predicted_words) and len(predicted_words) == len(true_words):
         correct += 1
 
-    return 1 if correct>0 else 0
+    return 1 if correct > 0 else 0

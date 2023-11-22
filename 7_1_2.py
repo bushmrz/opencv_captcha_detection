@@ -234,6 +234,6 @@ def part2():
     with open(predictions_file, 'a', encoding='utf-8') as file:
         file.write( f"Точность для {recognition_type} {validation_type} распознавание по набору данных: {accuracy * 100:.2f}%")
 
-# main()
-part2()
+main()
+# part2()
 
