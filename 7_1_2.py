@@ -7,7 +7,6 @@ import glob
 
 from calculate_similarity_score import calculate_similarity_score
 
-from augmentation import augment_dataset
 
 pytesseract.pytesseract.tesseract_cmd = r"C:/Program Files/Tesseract-OCR/tesseract.exe"
 
@@ -41,7 +40,7 @@ def straight_recognition(image_paths):
 def easyocr_recognition(image_paths):
     predictions = {}
     for image_path in image_paths:
-        img = Image.open(image_path)
+        # img = Image.open(image_path)
         result = reader.readtext(image_path)
         text = ' '.join([item[1] for item in result])
         predictions[image_path] = text.strip()
@@ -84,7 +83,7 @@ def test_recognition(rec_type, val_type, image_paths, truth_file, dpath):
                 for image_path, prediction in predictions.items():
                     file.write(f"{image_path}: {prediction}\n")
 
-        # res_file = f'result_{dpath}_{rec_type}_{val_type}_lab1.txt'
+        # res_file = f'result_{dpath}_{rec_type}_{val_type}_lab2.txt'
     return accuracy
 
 def evaluate_accuracy_wordwise(ground_truth, predictions):
@@ -136,8 +135,8 @@ def test_augmented_dataset(rec_type, val_type, augmented_path, ground_truth_file
 
 
 def main():
-    image_paths = ['capchi/1-.jpg', 'capchi/2-.jpg', 'capchi/3-.jpg', 'capchi/4-.jpg', 'capchi/5-.jpg', 'capchi/6-.jpg',
-                   'capchi/7-.jpg', 'capchi/8-.jpg', 'capchi/9-.jpg', 'capchi/10-.jpg', 'capchi/11-.jpg']
+    image_paths = ['capchi/1.jpg', 'capchi/2.jpg', 'capchi/3.jpg', 'capchi/4.jpg', 'capchi/5.jpg', 'capchi/6.jpg',
+                   'capchi/7.jpg', 'capchi/8.jpg', 'capchi/9.jpg', 'capchi/10.jpg', 'capchi/11.jpg']
 
     true_captcha_txt = 'capchi/true_text.txt'
     dpath = "capchi"
@@ -189,7 +188,7 @@ def part2():
     validation_type = 'full_match'
 
     # Аугментировать датасет
-    augment_dataset(original_dataset_path, augmented_dataset_path)
+    # augment_dataset(original_dataset_path, augmented_dataset_path)
 
     # Получяем список всех изображений в аугментированном датасете
     augmented_images = glob.glob(os.path.join(augmented_dataset_path, '*.jpg'))
@@ -234,6 +233,6 @@ def part2():
     with open(predictions_file, 'a', encoding='utf-8') as file:
         file.write( f"Точность для {recognition_type} {validation_type} распознавание по набору данных: {accuracy * 100:.2f}%")
 
-main()
-# part2()
+# main()
+part2()
 

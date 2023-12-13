@@ -1,7 +1,7 @@
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -41,13 +41,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -87,13 +87,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -133,13 +133,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -179,13 +179,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -225,13 +225,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -271,13 +271,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -317,13 +317,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -363,59 +363,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
-experiment_name: custom
-train_data: all_data
-valid_data: all_data/train
-manualSeed: 1111
-workers: 6
-batch_size: 2
-num_iter: 300
-valInterval: 300
-saved_model: saved_models/ru/cyrillic_g2.pth
-FT: False
-optim: False
-lr: 1.0
-beta1: 0.9
-rho: 0.95
-eps: 1e-08
-grad_clip: 5
-select_data: ['train']
-batch_ratio: ['1']
-total_data_usage_ratio: 1.0
-batch_max_length: 20
-imgH: 600
-imgW: 600
-rgb: False
-contrast_adjust: 0.0
-sensitive: True
-PAD: True
-data_filtering_off: False
-Transformation: None
-FeatureExtraction: VGG
-SequenceModeling: BiLSTM
-Prediction: CTC
-num_fiducial: 20
-input_channel: 1
-output_channel: 256
-hidden_size: 256
-decode: greedy
-new_prediction: False
-freeze_FeatureFxtraction: False
-freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
-num_class: 208
----------------------------------------
------------- Options -------------
-number: 0123456789
-symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -455,13 +409,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -501,13 +455,59 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
+experiment_name: custom
+train_data: all_data
+valid_data: all_data/train
+manualSeed: 1111
+workers: 6
+batch_size: 2
+num_iter: 300
+valInterval: 300
+saved_model: saved_models/ru/cyrillic_g2.pth
+FT: False
+optim: False
+lr: 1.0
+beta1: 0.9
+rho: 0.95
+eps: 1e-08
+grad_clip: 5
+select_data: ['train']
+batch_ratio: ['1']
+total_data_usage_ratio: 1.0
+batch_max_length: 20
+imgH: 600
+imgW: 600
+rgb: False
+contrast_adjust: 0.0
+sensitive: True
+PAD: True
+data_filtering_off: False
+Transformation: None
+FeatureExtraction: VGG
+SequenceModeling: BiLSTM
+Prediction: CTC
+num_fiducial: 20
+input_channel: 1
+output_channel: 256
+hidden_size: 256
+decode: greedy
+new_prediction: False
+freeze_FeatureFxtraction: False
+freeze_SequenceModeling: False
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
+num_class: 208
+---------------------------------------
+------------ Options -------------
+number: 0123456789
+symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -547,13 +547,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -593,13 +593,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -639,13 +639,13 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------
 ------------ Options -------------
 number: 0123456789
 symbol: !"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽
-lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+lang_char: ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 experiment_name: custom
 train_data: all_data
 valid_data: all_data/train
@@ -685,6 +685,6 @@ decode: greedy
 new_prediction: False
 freeze_FeatureFxtraction: False
 freeze_SequenceModeling: False
-character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюяЂђЃѓЄєІіЇїЈјЉљЊњЋћЌќЎўЏџҐґҒғҚқҮүҲҳҶҷӀӏӢӣӨөӮӯ
+character: 0123456789!"#$%&'()*+,-./:;<=>?@[\]№_`{|}~ €₽ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
 num_class: 208
 ---------------------------------------

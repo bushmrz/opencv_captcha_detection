@@ -7,7 +7,6 @@ import easyocr
 from PIL import Image
 import glob
 
-from augmentation import augment_dataset
 from evaluate_accuracy import evaluate_accuracy_wordwise, evaluate_partial_accuracy_wordwise, \
     evaluate_accuracy_wordwise_one, evaluate_partial_accuracy_wordwise_one
 from clear_str import clear_str
@@ -146,7 +145,7 @@ def test_recognition(rec_type, val_type, image_paths, truth_file, dpath):
         with open(
                 str(
                     rel_path(
-                        "results_" + val_type + "_" + rec_type + "_" + dpath + ".txt"
+                        "results_" + val_type + "_" + rec_type + "_" + dpath + "5.txt"
                     )
                 ),
                 "w",

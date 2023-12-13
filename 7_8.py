@@ -7,7 +7,6 @@ import easyocr
 from PIL import Image
 import glob
 
-from augmentation import augment_dataset
 from evaluate_accuracy import evaluate_accuracy_wordwise, evaluate_partial_accuracy_wordwise, \
     evaluate_accuracy_wordwise_one, evaluate_partial_accuracy_wordwise_one
 from clear_str import clear_str
